@@ -1,0 +1,135 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+body{
+  overflow: hidden;
+}
+.me{
+  height: 100vh;
+  width: 100%;
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(211,211,211,1) 60%, rgba(211,211,211,1) 60% ,rgba(255,255,255,1) 25%, rgba(249,249,249,1) 25%);
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+.logo{
+  height: 10%;
+  font-size: 35px;
+
+  text-transform: uppercase;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 0px 20px;
+}
+nav ul a{
+  color: #1f1f1f;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+nav ul li:after{
+  content: '';
+  display: block;
+  width: 0%;
+  height: 2px;
+  background: #1f1f1f;
+  margin: auto;
+  transition: .4s;
+}
+nav ul li:hover:after{
+  width: 100%;
+  color: black;
+}
+.text{
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%);
+}
+.text h1{
+  font-size: 140px;
+  color:#1f1f1f;
+  line-height: 140px;
+  margin-bottom: 20px;
+}
+button{
+  background:#1f1f1f;
+  color: white;
+  padding: 5px 30px;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  letter-spacing: 23px;
+}
+.vertical{
+  position: absolute;
+  transform: rotate(-90deg);
+  top: 50%;
+  left: -2%;
+}
+.vertical a{
+  color:#1f1f1f;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.btn1{
+  letter-spacing: 1px ;
+  position: absolute;
+  margin: 29% 15%;
+  width: 10%;
+  height: 5%;
+  font-size: 50px ;
+  font-weight: 400;
+  transition: 0.5s;
+}
+.btn1:hover{
+  color: white;
+  background: black;
+  transition: 0.5s;
+  font-size: 20px;
+}
+.social{
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  transform: translateY(-50%);
+}
+.social ul li{
+  list-style: none;
+  margin: 32px 0px;
+}
+.social ul li i{
+  font-size: 24px;
+  color:#1f1f1f;
+}
+.social ul li i:hover{
+  transform: scale(1.2) translateY(-6px);
+  transition: .3s;
+}
+
+.mimg{
+  position: absolute;
+  width: 50%;
+  height: 60%;
+  margin: 8% 54% ;
+}
+.mimg img{
+  position: absolute;
+  height: 100%;
+  left: 50%;
+  transform: translateX(-45%);
+}
