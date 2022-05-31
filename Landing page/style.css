@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+body{
+    overflow: hidden;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background:url(https://thumbs.dreamstime.com/z/birthday-girl-cake-5018085.jpg) no-repeat;
+    background-size: cover;
+}
+
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .shreyas bakery{
+    position: relative;
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+
+}
+header .shreyas bakery:hover{
+    color: red;
+}
+
+header .navigation a{
+    position: relative;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding: 2px 10px;
+    /* border: 1px solid violet;
+    border-radius: 10%; */
+
+}
+header .navigation a:hover{
+    color: red;
+    background: fixed;
+    /* border: 1px solid black; */
+    /* border-radius: 10px; */
+}
+.content{
+    max-width: 650px;
+    margin: 10% 30%;
+}
+.content .info h2{
+    color: blue;
+    font-family: "Lucida Handwritingt";
+    font-size: 60px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.content .info p{
+    color: red;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-family: "Georgia";
+    font-weight: 600;
+
+}
+.Sign-up-btn{
+    margin-top: auto;
+    border: 1px solid black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 10px 30px;
+    color: black;
+    background: fixed;
+    margin-right: 30px;
+    font-weight: 700;
+
+
+}
+.Sign-up-btn:hover{
+    background:red;
+    transition: 0.5s;
+    color: black;
+    transform: scale(1.5);
+    border: none;
+
+
+}
+.media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+.media a{
+    position: relative;
+    color: black;
+    font-size: 25px;
+    margin-right: 60px;
+    transition: 0.3s;
+    transition-property: transform;
+}
+.media a:hover{
+    transform: scale(1.5);
+    /* border: 1px solid black; */
+
+}
